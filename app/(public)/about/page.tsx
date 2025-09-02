@@ -28,7 +28,7 @@ export default function About() {
         <p className="italic text-[16px] md:text-[24px] text-end">Tokyo, Japan</p>
       </div>
       {/* Experience */}
-      <div className="mt-8">
+      <div className="mt-8 md:text-[24px]">
         <h1 className="text-[24px] text-center leading-[48px] font-bold border-y-[1px] border-y-[#000000]">Working Experience</h1>
         <div className="my-8">
           <p>Nov 2023 - Present</p>
