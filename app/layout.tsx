@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { headers } from 'next/headers'
 import { Cormorant_Garamond, Noto_Serif_JP } from "next/font/google";
 
+
 import "./globals.css";
-import Header from "@/ui/header"
-import Footer from "@/ui/footer";
+import favicon from "@/public/images/favicon_io/favicon.ico";
 
 const cormorant = Cormorant_Garamond({
   variable: "--font-cormorant",
@@ -35,6 +35,7 @@ export default function RootLayout({
   const isAdminRoute = false;
   return (
     <html lang="en" className={`${notoSerifJp.className} antialiased`}>
+      {/* <link rel="icon" href={favicon} sizes="any" /> */}
       <body
       >
         {children}
