@@ -19,6 +19,9 @@ export default function Header() {
           <Link className={`px-4`} href="/post">
             <span className={`leading-0 ${isActive('/post') ? "border-b-[6px] border-[#77FF00]" : ""}`}>Posts</span>
           </Link>
+          <Link className={`px-4`} href="/gallery">
+            <span className={`leading-0 ${isActive('/gallery') ? "border-b-[6px] border-[#77FF00]" : ""}`}>Gallery</span>
+          </Link>
           <Link className={`px-4`} href="/about">
             <span className={`leading-0 ${isActive('/about') ? "border-b-[6px] border-[#77FF00]" : ""}`}>About</span>
           </Link>

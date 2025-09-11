@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { headers } from 'next/headers'
-import { Cormorant_Garamond, Noto_Sans_JP } from "next/font/google";
+import { Cormorant_Garamond, Noto_Serif_JP } from "next/font/google";
 
 import "./globals.css";
 import Header from "@/ui/header"
@@ -12,7 +12,7 @@ const cormorant = Cormorant_Garamond({
   // display: "swap"
 });
 
-const notoSans = Noto_Sans_JP({
+const notoSerifJp = Noto_Serif_JP({
   variable: "--font-noto-sans",
   // display: "fallback"
 });
@@ -34,7 +34,7 @@ export default function RootLayout({
   // const isAdminRoute = pathname.startsWith('/admin');
   const isAdminRoute = false;
   return (
-    <html lang="en" className={`${cormorant.className} antialiased`}>
+    <html lang="en" className={`${notoSerifJp.className} antialiased`}>
       <body
       >
         {children}
