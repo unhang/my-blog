@@ -1,7 +1,9 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f6f6c9;
+  /* --background: #f6f6c9; */
+  /* --background: #fdfdeb; */
+  --background: #fafada;
   --foreground: #171717;
   --font-cormorant: var(--font-cormorant);
   --font-noto-sans: var(--font-noto-sans);
