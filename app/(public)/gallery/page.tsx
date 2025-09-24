@@ -57,7 +57,7 @@ const images: ImageItem[] = [
   { src: ueno223, alt: 'one pixel of gallery' },
 ];
 
-export default function Gallery() {
+export default async function Gallery() {
   const [galleryImages, setGalleryImages] = useState<ImageItem[]>(images);
 
   useEffect(() => { 
