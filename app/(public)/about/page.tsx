@@ -34,7 +34,7 @@ export default function About() {
         <h1 className="text-[24px] text-center leading-[48px] font-bold border-y-[1px] border-y-[#000000]">Working Experience</h1>
         <div className="my-8">
           <p className='text-[16px] md:text-[20px]'>Nov 2023 - Present</p>
-          <a className='text-[16px] md:text-[20px] underline' href="https://fptsoftware.jp/about-us/fpt-software-japan" target="_blank">FPT Software Japan</a>
+          {/* <a className='text-[16px] md:text-[20px] underline' href="https://fptsoftware.jp/about-us/fpt-software-japan" target="_blank">FPT Software Japan</a> */}
           <p className='mt-2 italic text-[16px] md:text-[20px] font-bold'>Bridge Software Engineer</p>
           <ul className="list-disc text-[16px] md:text-[20px] list-inside mt-2">
             <li>Manage project contracts and deliverables.</li>
@@ -44,7 +44,7 @@ export default function About() {
         </div>
         <div className="my-8">
           <p className='text-[16px] md:text-[20px]'>April 2020 - Oct 2023</p>
-          <a className='text-[16px] md:text-[20px] underline' href="hhttps://executionlab.asia/" target="_blank">Executionlab Asia</a>
+          {/* <a className='text-[16px] md:text-[20px] underline' href="hhttps://executionlab.asia/" target="_blank">Executionlab Asia</a> */}
           <p className='mt-2 italic text-[16px] md:text-[20px] font-bold'>Bridge Software Engineer</p>
           <ul className="list-disc text-[16px] md:text-[20px] list-inside mt-2">
             <li>Manage and tracking project tickets and deliverables.</li>
@@ -54,7 +54,7 @@ export default function About() {
         </div>
         <div className="my-8">
           <p className='text-[16px] md:text-[20px]'>Mar 2019 - Feb 2020</p>
-          <a className='text-[16px] md:text-[20px] underline' href="https://vn.goalist-group.com/" target="_blank">Goalsit Vietnam</a>
+          {/* <a className='text-[16px] md:text-[20px] underline' href="https://vn.goalist-group.com/" target="_blank">Goalsit Vietnam</a> */}
           <p className='mt-2 italic text-[16px] md:text-[20px] font-bold'>Fullstack Web Developer</p>
           <ul className="list-disc text-[16px] md:text-[20px] list-inside mt-2">
             <li>Build new frontend features using Angular and TypeScript.</li>
@@ -64,7 +64,7 @@ export default function About() {
         </div>
         <div className="my-8">
           <p className='text-[16px] md:text-[20px]'>Nov 2018 - Feb 2020</p>
-          <a className='text-[16px] md:text-[20px] underline' href="https://executionlab.asia/" target="_blank">Sutrix Solutions</a>
+          {/* <a className='text-[16px] md:text-[20px] underline' href="https://executionlab.asia/" target="_blank">Sutrix Solutions</a> */}
           <p className='mt-2 italic text-[16px] md:text-[20px] font-bold'>IT Comtor</p>
           <ul className="list-disc text-[16px] md:text-[20px] list-inside mt-2">
             <li>Translate requirements documents.</li>
@@ -104,7 +104,7 @@ export default function About() {
         </div>
       </div>
       {/* Educations */}
-      <div className="mt-16 md:text-[24px]">
+      {/* <div className="mt-16 md:text-[24px]">
         <h1 className="text-[24px] text-center leading-[48px] font-bold border-y-[1px] border-y-[#000000]">Educations</h1>
         <div className="my-8">
           <p className='text-[16px] md:text-[20px] font-bold'>Thai Nguyen University (TNU)</p>
@@ -114,7 +114,7 @@ export default function About() {
           <p className='text-[16px] md:text-[20px] font-bold'>FPT Polytechnic College</p>
           <p className='text-[16px] md:text-[20px]'>Advanced Diploma in Web Development, Graduated 2020</p>
         </div>
-      </div>
+      </div> */}
       {/* Tech Stack */}
       <div className="mt-16 mb-32 md:text-[24px]">
         <h1 className="text-[24px] text-center leading-[48px] font-bold border-y-[1px] border-y-[#000000]">Tech Stack</h1>
@@ -126,7 +126,7 @@ export default function About() {
             <li>Databases: PostgreSQL, MongoDB</li>
             <li>Cloud: AWS (EC2, S3, RDS, Lambda)</li>
             <li>Version Control: Git, GitHub</li>
-            <li>Project Management: Jira, Confluence</li>
+            <li>Project Management: Jira, Backlog</li>
           </ul>
         </div>
       </div>
