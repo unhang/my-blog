@@ -3,8 +3,10 @@
 :root {
   /* --background: #f6f6c9; */
   /* --background: #fdfdeb; */
-  --background: #f9f9e2;
-  --foreground: #171717;
+  /* --background: #f9f9e2; */
+  --background: #edede0;
+  --foreground: #2a2a2a;
+  /* --foreground: #171717; */
   --font-cormorant: var(--font-cormorant);
   --font-noto-sans: var(--font-noto-sans);
 }

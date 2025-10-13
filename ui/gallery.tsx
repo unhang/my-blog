@@ -4,18 +4,17 @@ import { Eye, ChevronRight, ChevronLeft, X } from 'lucide-react';
 
 import { ImageItem } from '@/type/ImageItem';
 import Image from 'next/image';
+
 export default function GalleryScroll({ imagesProp }: { imagesProp?: ImageItem[] }) {
   const [selectedImage, setSelectedImage] = useState<ImageItem | null>(null);
 
   const handleImageClick = (image: ImageItem) => {
-    console.log('Image clicked:', image);
     setSelectedImage(image);
     document.body.style.overflow = 'hidden'; // prevent background scrolling
   }
 
 
   const handleNextImage = useCallback(() => {
-    console.log('Next image requested');
     if (selectedImage && imagesProp) {
       const currentIndex = imagesProp.findIndex(img => img.src === selectedImage.src);
       const nextIndex = (currentIndex + 1) % imagesProp.length;
@@ -24,7 +23,6 @@ export default function GalleryScroll({ imagesProp }: { imagesProp?: ImageItem[]
   }, [selectedImage, imagesProp]);
 
   const handlePrevImage = useCallback(() => {
-    console.log('Next image requested');
     if (selectedImage && imagesProp) {
       const currentIndex = imagesProp.findIndex(img => img.src === selectedImage.src);
       const prevIndex = (currentIndex - 1 + imagesProp.length) % imagesProp.length;
@@ -53,19 +51,15 @@ export default function GalleryScroll({ imagesProp }: { imagesProp?: ImageItem[]
         default:
           break;
       }
-      console.log('Key pressed:', e.key);
     }
     document.addEventListener('keydown', handleKeyDown);
 
     return () => {
       document.removeEventListener('keydown', handleKeyDown);
-      console.log('Removing keydown event listener');
     }
 
   }, [selectedImage, imagesProp]);
 
-  console.log('GalleryScroll rendered');
-  console.log('Selected image:', selectedImage);
   return <>
     {/* image floating modal */}
     {selectedImage && (

@@ -1,30 +1,13 @@
-'use client';
-import Link from "next/link";
-import { usePathname } from 'next/navigation';
-
+import NavLink from "./nav-link";
 export default function Header() {
-  const pathname = usePathname();
-
-  const isActive = (path: string) => {
-    return pathname === path;
-  }
-
   return <>
     <div className="w-full py-[18px] border-b border-[#000000]">
       <div className="">
         <div className="w-full flex justify-center">
-          <Link className={`px-4`} href="/">
-            <span className={`leading-0 ${isActive('/') ? "border-b-[6px] border-[#77FF00]" : ""}`}>Home</span>
-          </Link>
-          <Link className={`px-4`} href="/post">
-            <span className={`leading-0 ${isActive('/post') ? "border-b-[6px] border-[#77FF00]" : ""}`}>Posts</span>
-          </Link>
-          <Link className={`px-4`} href="/gallery">
-            <span className={`leading-0 ${isActive('/gallery') ? "border-b-[6px] border-[#77FF00]" : ""}`}>Gallery</span>
-          </Link>
-          <Link className={`px-4`} href="/about">
-            <span className={`leading-0 ${isActive('/about') ? "border-b-[6px] border-[#77FF00]" : ""}`}>About</span>
-          </Link>
+          <NavLink href="/home">Home</NavLink>
+          <NavLink href="/post">Posts</NavLink>
+          <NavLink href="/gallery">Gallery</NavLink>
+          <NavLink href="/about">About</NavLink>
         </div>
       </div>
     </div>
