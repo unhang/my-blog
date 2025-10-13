@@ -29,12 +29,12 @@ import hanabi6 from '@/public/images/hanabi/DSC04500.jpg';
 import GalleryScroll from '@/ui/gallery';
 
 const images: ImageItem[] = [
-  { src: hanabi1, alt: 'one pixel of gallery' },
-  { src: hanabi2, alt: 'one pixel of gallery' },
-  { src: hanabi4, alt: 'one pixel of gallery' },
-  { src: hanabi3, alt: 'one pixel of gallery' },
-  { src: hanabi5, alt: 'one pixel of gallery' },
-  { src: hanabi6, alt: 'one pixel of gallery' },
+  // { src: hanabi1, alt: 'one pixel of gallery' },
+  // { src: hanabi2, alt: 'one pixel of gallery' },
+  // { src: hanabi4, alt: 'one pixel of gallery' },
+  // { src: hanabi3, alt: 'one pixel of gallery' },
+  // { src: hanabi5, alt: 'one pixel of gallery' },
+  // { src: hanabi6, alt: 'one pixel of gallery' },
   // Ueno
   { src: ueno11, alt: 'one pixel of gallery' },
   { src: ueno12, alt: 'one pixel of gallery' },
