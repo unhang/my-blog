@@ -18,7 +18,7 @@ const notoSerifJp = Noto_Serif_JP({
 });
 
 export const metadata: Metadata = {
-  title: "It'me",
+  title: "Hang - Blog",
   description: "personal blog of Hang",
 };
 
