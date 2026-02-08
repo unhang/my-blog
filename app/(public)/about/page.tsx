@@ -76,7 +76,7 @@ export default function About() {
       <div className="mt-16 md:text-[24px]">
         
         <h1 className="text-[24px] text-center leading-[48px] font-bold border-y-[1px] border-y-[#000000]">Certifications</h1>
-        <div className='my-8'>
+        {/* <div className='my-8'>
           <Image className='w-full h-auto'
                 src={awsSaa}
                 alt="AWS Certified Solutions Architect - Associate" />
@@ -85,10 +85,14 @@ export default function About() {
           <Image className='w-full h-auto'
                 src={pmpCert}
                 alt="PMI PMP Professional Project Management" />
+        </div> */}
+        <div className="my-8">
+          <p className='text-[16px] md:text-[20px] font-bold'>JLPT N1</p>
+          <p className='text-[16px] md:text-[20px]'>Issued: Dec 2025</p>
         </div>
         <div className="my-8">
           <p className='text-[16px] md:text-[20px] font-bold'>AWS Certified Solutions Architect - Associate</p>
-          <p className='text-[16px] md:text-[20px]'>Issued: Dev 2024</p>
+          <p className='text-[16px] md:text-[20px]'>Issued: Dec 2024</p>
         </div>
         <div className="my-8">
           <p className='text-[16px] md:text-[20px] font-bold'>PMI PMP Professional Project Management</p>
